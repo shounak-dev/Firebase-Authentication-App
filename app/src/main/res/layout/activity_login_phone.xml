@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/upRl"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/up_frame">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+        <EditText
+            android:id="@+id/phnnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/upRl"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="30dp"
+            android:hint="Enter Your Phone Number"
+            android:inputType="phone"
+            android:drawableStart="@drawable/phone"/>
+
+        <LinearLayout
+            android:id="@+id/gOTP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/phnnumber"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/gOTPBtn"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="Get OTP"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:cornerRadius="20dp"
+                android:backgroundTint="#000068"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/otp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gOTP"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="80dp"
+            android:gravity="center"
+            android:hint="Enter OTP"
+            android:inputType="phone" />
+
+        <LinearLayout
+            android:id="@+id/vOTP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/otp"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/vOTPBtn"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="Verify"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:cornerRadius="20dp"
+                android:backgroundTint="#000068"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</layout>

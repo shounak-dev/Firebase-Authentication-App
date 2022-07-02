@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "90927053807",
+    "project_id": "authentication-15092",
+    "storage_bucket": "authentication-15092.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90927053807:android:a448cb49aebda9c6d8141a",
+        "android_client_info": {
+          "package_name": "com.shounak.idcard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90927053807-fuvgi9ubv8fm8ju3eqtg2maacgobta6h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shounak.idcard",
+            "certificate_hash": "59f9e50b4417ba9f001c662b3b8524fedd35bc6d"
+          }
+        },
+        {
+          "client_id": "90927053807-lnjilrkikfjifkf18efopen53rj7ipjl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwdw0usDoFVpcKlsc9Yv5lcQMNpaDuBME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90927053807-lnjilrkikfjifkf18efopen53rj7ipjl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
